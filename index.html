@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="header"></div>
+
+    <div class="form-card">
+        <h1>Registration Form</h1>
+        <p>Please fill out the following information accurately.</p>
+
+      <form id="registrationForm">
+
+            <label for="name">Full Name <span>*</span></label>
+            <input type="text" id="name" name="fullname" placeholder="Enter your full name" required>
+            <label for="faculty">Faculty <span>*</span></label>
+            <select id="faculty" name="faculty" required>
+                <option value="">Select Faculty</option>
+                <option>Computer Engineering</option>
+                <option>Civil Engineering</option>
+                <option>Electronics & Communication Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Automobile Engineering</option>
+               
+            </select>
+
+            <label for="year">Year <span>*</span></label>
+            <select id="year" name="year" required>
+                <option value="">Select Year</option>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Fourth Year</option>
+                <option>Fifth Year</option>
+            </select>
+
+            <label for="email">Email Address <span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number <span>*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="98XXXXXXXX" pattern="[0-9]{10}" required>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</div>
+<script src="submit.js"></script>
+</body>
+</html>
