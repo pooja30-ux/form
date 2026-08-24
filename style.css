@@ -42,7 +42,7 @@ body{
 #673ab7
 .header{
     height:12px;
-    background:;
+    background:transparent;
     border-radius:0 0 0 0;
 }
 
@@ -50,7 +50,8 @@ body{
     width:100%;
     background:#fff;
     padding:30px;
-    border-radius:0 0 10px 10px;
+    margin-top:10px;
+    border-radius:10px;
     box-shadow:0 3px 10px rgba(0,0,0,0.15);
 }
 
