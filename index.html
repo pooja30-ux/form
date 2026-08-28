@@ -54,11 +54,50 @@
 
             <label for="phone">Phone Number <span>*</span></label>
             <input type="tel" id="phone" name="phone" placeholder="98XXXXXXXX" pattern="[0-9]{10}" required>
-      
-             <label for="GitHub Link">GitHub Link <span>*</span></label>
-            <input type="text" id="GitHub" name="Link" placeholder="Enter your GitHub Link" required>
-            <label for="GitHub Link">Where did you know about this event? <span>*</span></label>
-            <input type="text" id="Where did you know about this event" name="?" placeholder="Enter your answer" required>
+
+            <label for="role">Preferred Role <span>*</span></label>
+            <select id="role" name="preferredRole" required>
+                <option value="">Select a role</option>
+                <option>Technical Team</option>
+                <option>Design Team</option>
+                <option>Content and Social Media</option>
+                <option>Event Management</option>
+                <option>Public Relations</option>
+            </select>
+
+            <label for="skills">Skills and Tools</label>
+            <input type="text" id="skills" name="skills" placeholder="e.g. Python, Figma, public speaking">
+
+            <label for="experience">Relevant Experience</label>
+            <textarea id="experience" name="experience" rows="4" placeholder="Tell us about projects, clubs, or activities you have worked on."></textarea>
+
+            <label>Weekly Availability <span>*</span></label>
+            <div class="option-group">
+                <label class="option"><input type="radio" name="availability" value="1-3 hours" required> 1-3 hours</label>
+                <label class="option"><input type="radio" name="availability" value="4-6 hours"> 4-6 hours</label>
+                <label class="option"><input type="radio" name="availability" value="7+ hours"> 7+ hours</label>
+            </div>
+
+            <label for="portfolio">Portfolio or LinkedIn Link</label>
+            <input type="url" id="portfolio" name="portfolio" placeholder="https://">
+
+            <label for="github">GitHub Link</label>
+            <input type="url" id="github" name="github" placeholder="https://github.com/username">
+
+            <label for="source">How did you hear about this event? <span>*</span></label>
+            <select id="source" name="referralSource" required>
+                <option value="">Select an option</option>
+                <option>Social media</option>
+                <option>Friend or classmate</option>
+                <option>College announcement</option>
+                <option>Club member</option>
+                <option>Other</option>
+            </select>
+
+            <label for="motivation">Why would you like to join? <span>*</span></label>
+            <textarea id="motivation" name="motivation" rows="5" placeholder="Share a few sentences about your interest." required></textarea>
+
+            <label class="option consent"><input type="checkbox" name="consent" value="Yes" required> I confirm that the information provided is accurate.</label>
 
 
             <button type="submit">Submit</button>
