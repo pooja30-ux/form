@@ -26,3 +26,12 @@ Technologies Used
 HTML5 – Structure of the registration form
 CSS3 – Styling and responsive design
 JavaScript – Form submission and validation
+
+Project Structure
+Registration-Form/
+│
+├── index.html
+├── style.css
+├── submit.js
+├── banner.jpg
+└── README.md
