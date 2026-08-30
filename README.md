@@ -22,3 +22,7 @@ Consent checkbox
 Submit button
 Responsive layout
 
+Technologies Used
+HTML5 – Structure of the registration form
+CSS3 – Styling and responsive design
+JavaScript – Form submission and validation
